@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from django.http import FileResponse, HttpResponse
-from .script import UserVideo
-import moviepy.editor as mpy
-from moviepy.video.tools.segmenting import findObjects
+from .script import *
 
 
 def user_video(request):
